@@ -1,0 +1,155 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, #f50057, #ec407a,#f48fb1);
+
+}
+#logo{
+    height: 100%;
+    width: 30%;
+     float: right;
+     background-color: lightpink;
+     color:#1a237e;
+     text-align: center;
+     font-size: 80%;
+
+
+
+}
+span h2{
+    line-height: 100%;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+#img{
+    height:100%;
+border-radius: 30%;
+float: right;
+} 
+nav{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: xx-large;
+}
+
+
+nav li{
+    display: inline-block;
+    line-height: 500%;
+    width: 20%;
+    text-align:center ;
+
+   
+
+}
+.dropbutton{
+    background-color: blanchedalmond;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.dropbutton a{
+    background-color:#ec407a;
+    display: block;
+    font-size: xx-large;
+}
+#drop:hover .dropbutton{
+    display: block;
+    width: 14%;
+}
+nav a:hover{
+    background-color: lightyellow;
+    color: rgb(197, 30, 122);
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+button{
+    background-color: #4db6ac;
+    border: 5px;
+    padding: 12px ;
+    font-size: medium;
+    height: 50%;
+width: 5%
+;
+}
+
+.desc{
+    text-align: center;
+    padding: 30px;
+font-size: 150%;
+font-family: Fantasy;
+
+
+}
+
+div.gallery{
+    border: 5px solid rgb(80, 78, 78) ;
+    border-style: double;
+    width: 400px;height: 400px;
+    display:  inline-block;
+    margin: 20px 10px;
+}
+div.gallery:hover{
+    border: 4px solid purple;
+  background-color: rgb(195, 125, 195);
+}
+
+div.gallery img{
+    width: 100%;
+    height: 100%;
+}
+div.pick{
+    border: 5px solid rgb(80, 78, 78) ;
+    border-style: double;
+    width: 400px; height: 400px;
+    display:  inline-block;
+    margin: 20px 10px;
+
+}
+div.pick:hover{
+    border: 4px solid purple;
+}
+
+div.pick img{
+    width: 100%;
+    height: 100%;
+}
+map{
+    cursor:grab;
+
+    
+}
+.pic{
+    border: 5px solid rgb(80, 78, 78) ;
+    border-style: double;
+    display:  inline-block;
+    margin: 20px 10px;
+
+}
+
+
+@media only screen and (max-width:1000px){
+    .img{
+        width: 46%;
+        height: 100%;
+    }
+} 
+@media only screen and (max-width:500px){
+    .img{
+width:100% ;
+    }
+}
+
+
